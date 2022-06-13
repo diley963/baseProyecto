@@ -1,0 +1,11 @@
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\bin\Debug\net6.0\ProjectBase.Dominio.deps.json
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\bin\Debug\net6.0\ProjectBase.Dominio.dll
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\bin\Debug\net6.0\ref\ProjectBase.Dominio.dll
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\bin\Debug\net6.0\ProjectBase.Dominio.pdb
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\obj\Debug\net6.0\ProjectBase.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\obj\Debug\net6.0\ProjectBase.Dominio.AssemblyInfoInputs.cache
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\obj\Debug\net6.0\ProjectBase.Dominio.AssemblyInfo.cs
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\obj\Debug\net6.0\ProjectBase.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\obj\Debug\net6.0\ProjectBase.Dominio.dll
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\obj\Debug\net6.0\ref\ProjectBase.Dominio.dll
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Dominio\obj\Debug\net6.0\ProjectBase.Dominio.pdb

@@ -1,0 +1,11 @@
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\bin\Debug\net6.0\ProjectBase.Servicios.deps.json
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\bin\Debug\net6.0\ProjectBase.Servicios.dll
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\bin\Debug\net6.0\ref\ProjectBase.Servicios.dll
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\bin\Debug\net6.0\ProjectBase.Servicios.pdb
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\obj\Debug\net6.0\ProjectBase.Servicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\obj\Debug\net6.0\ProjectBase.Servicios.AssemblyInfoInputs.cache
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\obj\Debug\net6.0\ProjectBase.Servicios.AssemblyInfo.cs
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\obj\Debug\net6.0\ProjectBase.Servicios.csproj.CoreCompileInputs.cache
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\obj\Debug\net6.0\ProjectBase.Servicios.dll
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\obj\Debug\net6.0\ref\ProjectBase.Servicios.dll
+C:\Users\57301\Source\Repos\ProjectBaseNet6\ProjectBase.Servicios\obj\Debug\net6.0\ProjectBase.Servicios.pdb

@@ -1,0 +1,442 @@
+﻿++Solución "ProjectBase" ‎(6 de 6 proyectos)
+i:{00000000-0000-0000-0000-000000000000}:ProjectBase.sln
+++2-Infraestructura
+i:{00000000-0000-0000-0000-000000000000}:2-Infraestructura
+++ProjectBase.Infraestructura
+i:{e385bdde-60ae-4993-ab9b-1b0609454c71}:ProjectBase.Infraestructura
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.infraestructura\projectbase.infraestructura.csproj
+++Dependencias
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:>674
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:>672
+i:{7229f2c2-7f74-4ea3-a6c9-37796f3a41b9}:>671
+i:{1209c6c0-1b48-43ff-ad58-32bb309c76fe}:>673
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:>973
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:>1236
+++Contexto
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:c:\users\57301\source\repos\projectbasenet6\projectbase.infraestructura\contexto\
+++Repositorios
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\repositorios\
+++ClientRepository.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\repositorios\clientrepository.cs
+++Repository.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\repositorios\repository.cs
+++Analizadores
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:analizadores
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:analizadores
+i:{7229f2c2-7f74-4ea3-a6c9-37796f3a41b9}:analizadores
+i:{1209c6c0-1b48-43ff-ad58-32bb309c76fe}:analizadores
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:analizadores
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:analizadores
+++Marcos de trabajo
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:marcos de trabajo
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:marcos de trabajo
+i:{7229f2c2-7f74-4ea3-a6c9-37796f3a41b9}:marcos de trabajo
+i:{1209c6c0-1b48-43ff-ad58-32bb309c76fe}:marcos de trabajo
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:marcos de trabajo
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:marcos de trabajo
+++Paquetes
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:paquetes
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:paquetes
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:paquetes
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:paquetes
+++Proyectos
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:proyectos
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:proyectos
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:proyectos
+++AdministracionAccesoDatos.cs
+++ContextoApp.cs
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:c:\users\57301\source\repos\projectbasenet6\projectbase.infraestructura\contexto\contextoapp.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7229f2c2-7f74-4ea3-a6c9-37796f3a41b9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1209c6c0-1b48-43ff-ad58-32bb309c76fe}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7229f2c2-7f74-4ea3-a6c9-37796f3a41b9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1209c6c0-1b48-43ff-ad58-32bb309c76fe}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:c:\users\57301\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.5\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:c:\users\57301\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{7229f2c2-7f74-4ea3-a6c9-37796f3a41b9}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{1209c6c0-1b48-43ff-ad58-32bb309c76fe}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:c:\users\57301\source\repos\projectbasenet6\projectbase.infraestructura\microsoft.netcore.app
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\microsoft.netcore.app
+i:{7229f2c2-7f74-4ea3-a6c9-37796f3a41b9}:c:\users\57301\source\repos\projectbasenet6\projectbase.dominio\microsoft.netcore.app
+i:{1209c6c0-1b48-43ff-ad58-32bb309c76fe}:c:\users\57301\source\repos\projectbasenet6\projectbase.servicios\microsoft.netcore.app
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:c:\users\57301\source\repos\projectbasenet6\projectbase.unittest\microsoft.netcore.app
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\microsoft.netcore.app
+++EntityFramework (6.4.4)
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:>1279
+++Microsoft.EntityFrameworkCore (6.0.5)
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:>1278
+++ProjectBase.Negocio
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\projectbase.negocio.csproj
+i:{ea799d33-57e0-4328-9909-36f5b69ad1df}:ProjectBase.Negocio
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\projectbase.negocio.csproj
+++3-Negocio
+i:{00000000-0000-0000-0000-000000000000}:3-Negocio
+++Clientes
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\clientes\
+++Contratos
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\
+++Persistencia
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\
+++Acciones
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\acciones\
+++IReadRepository.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\acciones\ireadrepository.cs
+++IClientRepository.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\iclientrepository.cs
+++IFachada.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\ifachada.cs
+++IRepository.cs
+++Fachadas
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\fachadas\
+++Fachada.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\fachadas\fachada.cs
+++Mappings
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\mappings\
+++ModelApp
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\modelapp\
+++ClienteRequest.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\clientes\clienterequest.cs
+++ComandosCliente.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\clientes\comandoscliente.cs
+++ConsultasCliente.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\clientes\consultascliente.cs
+++MappingProfile.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\mappings\mappingprofile.cs
+++AutoMapper (11.0.1)
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:>1269
+++ProjectBase.Dominio
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.dominio\projectbase.dominio.csproj
+i:{87cc2647-f472-4dea-a5e6-809d66018453}:ProjectBase.Dominio
+++4-Dominio
+i:{00000000-0000-0000-0000-000000000000}:4-Dominio
+++Common
+i:{7229f2c2-7f74-4ea3-a6c9-37796f3a41b9}:c:\users\57301\source\repos\projectbasenet6\projectbase.dominio\common\
+++Cliente.cs
+i:{7229f2c2-7f74-4ea3-a6c9-37796f3a41b9}:c:\users\57301\source\repos\projectbasenet6\projectbase.dominio\cliente.cs
+++ModeloBase.cs
+i:{7229f2c2-7f74-4ea3-a6c9-37796f3a41b9}:c:\users\57301\source\repos\projectbasenet6\projectbase.dominio\common\modelobase.cs
+++5-Servicios
+i:{00000000-0000-0000-0000-000000000000}:5-Servicios
+++ProjectBase.Servicios
+i:{4f81c176-5875-4c12-87ea-ae903ee63faa}:ProjectBase.Servicios
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.servicios\projectbase.servicios.csproj
+++ConsultaDatosPrueba.cs
+i:{1209c6c0-1b48-43ff-ad58-32bb309c76fe}:c:\users\57301\source\repos\projectbasenet6\projectbase.servicios\consultadatosprueba.cs
+++Test
+i:{00000000-0000-0000-0000-000000000000}:Test
+++ProjectBase.UnitTest
+i:{930b826c-4ee6-470a-a685-72e7445f9796}:ProjectBase.UnitTest
+++UnitTest1.cs
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:c:\users\57301\source\repos\projectbasenet6\projectbase.unittest\unittest1.cs
+++Usings.cs
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:c:\users\57301\source\repos\projectbasenet6\projectbase.unittest\usings.cs
+++xunit.analyzers
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:c:\users\57301\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
+++coverlet.collector (3.1.2)
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:>1297
+++Microsoft.NET.Test.Sdk (17.1.0)
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:>1294
+++xunit (2.4.1)
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:>1295
+++xunit.runner.visualstudio (2.4.3)
+i:{307f3193-c73c-4b64-a553-adc9425d690d}:>1296
+++1-Presentacion
+i:{00000000-0000-0000-0000-000000000000}:1-Presentacion
+++ProjectBase.Presentacion
+i:{ec889483-bda3-40fb-aff4-cdae3f1cde6d}:ProjectBase.Presentacion
+++Connected Services 
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:>1237
+++Properties
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\properties\
+++wwwroot
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\
+++Areas
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\areas\
+++Controllers
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\controllers\
+++Data
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\data\
+++Delegada
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\delegada\
+++DelegadaProjectBase.cs
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\delegada\delegadaprojectbase.cs
+++Models
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\models\
+++Views
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\
+++appsettings.json
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\appsettings.json
+++Dockerfile
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\dockerfile
+++Program.cs
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\program.cs
+++SQL Server Express LocalDB (local) (ConnectionStrings:DefaultConnection)
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:>1328
+++launchSettings.json
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\properties\launchsettings.json
+++serviceDependencies.json
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\properties\servicedependencies.json
+++css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\css\
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\js\
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\
+++favicon.ico
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\favicon.ico
+++Identity
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\areas\identity\
+++HomeController.cs
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\controllers\homecontroller.cs
+++Migrations
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\data\migrations\
+++ApplicationDbContext.cs
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\data\applicationdbcontext.cs
+++ErrorViewModel.cs
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\models\errorviewmodel.cs
+++Home
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\home\
+++Shared
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\shared\
+++_ViewImports.cshtml
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\_viewstart.cshtml
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\areas\identity\pages\_viewstart.cshtml
+++appsettings.Development.json
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\appsettings.development.json
+++.dockerignore
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\.dockerignore
+++Microsoft.AspNetCore.Analyzers
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\microsoft.aspnetcore.app
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.5)
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:>1272
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.5)
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:>1273
+++Microsoft.AspNetCore.Identity.UI (6.0.5)
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:>1276
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.5)
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:>1271
+++Microsoft.EntityFrameworkCore.Tools (6.0.5)
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:>1274
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.15.1)
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:>1275
+++serviceDependencies.local.json
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\properties\servicedependencies.local.json
+++site.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\css\site.css
+++site.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\js\site.js
+++bootstrap
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\
+++jquery
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery\
+++jquery-validation
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation-unobtrusive\
+++Pages
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\areas\identity\pages\
+++00000000000000_CreateIdentitySchema.cs
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\data\migrations\00000000000000_createidentityschema.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\data\migrations\applicationdbcontextmodelsnapshot.cs
+++Index.cshtml
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\home\index.cshtml
+++Privacy.cshtml
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\home\privacy.cshtml
+++_Layout.cshtml
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\shared\_loginpartial.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\shared\error.cshtml
+++dist
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery\dist\
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery\license.txt
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++00000000000000_CreateIdentitySchema.Designer.cs
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\data\migrations\00000000000000_createidentityschema.designer.cs
+++_Layout.cshtml.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\views\shared\_layout.cshtml.css
+++jquery.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++IUnitOfWork.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\iunitofwork.cs
+++IUnitOfWorkRepository.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\iunitofworkrepository.cs
+++UnitOfWork.cs
+++Microsoft.Extensions.Configuration.Abstractions (6.0.0)
+i:{b1f86653-573f-4417-96d1-877a9ec67f17}:>1357
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:>1390
+++ICreateRepository.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\acciones\icreaterepository.cs
+++IRemoveRepository.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\acciones\iremoverepository.cs
+++IUpdateRepository.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\acciones\iupdaterepository.cs
+++IUnitOfWorkAdapter.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\persistencia\iunitofworkadapter.cs
+++UnitOfWorkSqlServer.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\repositorios\unitofworksqlserver.cs
+++UnitOfWorkSqlServerAdapter.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\repositorios\unitofworksqlserveradapter.cs
+++UnitOfWorkSqlServerRepository.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\repositorios\unitofworksqlserverrepository.cs
+++IReadClient.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\ireadclient.cs
+++ICommandClient.cs
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:c:\users\57301\source\repos\projectbasenet6\projectbase.negocio\contratos\icommandclient.cs
+++System.Data.SqlClient (4.8.3)
+i:{a1e6a025-fabd-4daa-ae40-30625662cbbd}:>1391
+++ClientesController1.cs
+++ClientesController.cs
+i:{c3425c32-727b-4d8c-ae71-5192685c25cd}:c:\users\57301\source\repos\projectbasenet6\projectbase.presentacion\controllers\clientescontroller.cs

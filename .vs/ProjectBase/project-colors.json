@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b1f86653-573f-4417-96d1-877a9ec67f17": {
+      "ProjectGuid": "b1f86653-573f-4417-96d1-877a9ec67f17",
+      "DisplayName": "ProjectBase.Infraestructura",
+      "ColorIndex": 0
+    },
+    "a1e6a025-fabd-4daa-ae40-30625662cbbd": {
+      "ProjectGuid": "a1e6a025-fabd-4daa-ae40-30625662cbbd",
+      "DisplayName": "ProjectBase.Negocio",
+      "ColorIndex": 1
+    },
+    "7229f2c2-7f74-4ea3-a6c9-37796f3a41b9": {
+      "ProjectGuid": "7229f2c2-7f74-4ea3-a6c9-37796f3a41b9",
+      "DisplayName": "ProjectBase.Dominio",
+      "ColorIndex": 2
+    },
+    "307f3193-c73c-4b64-a553-adc9425d690d": {
+      "ProjectGuid": "307f3193-c73c-4b64-a553-adc9425d690d",
+      "DisplayName": "ProjectBase.UnitTest",
+      "ColorIndex": 3
+    },
+    "1209c6c0-1b48-43ff-ad58-32bb309c76fe": {
+      "ProjectGuid": "1209c6c0-1b48-43ff-ad58-32bb309c76fe",
+      "DisplayName": "ProjectBase.Servicios",
+      "ColorIndex": 4
+    },
+    "c3425c32-727b-4d8c-ae71-5192685c25cd": {
+      "ProjectGuid": "c3425c32-727b-4d8c-ae71-5192685c25cd",
+      "DisplayName": "ProjectBase.Presentacion",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
