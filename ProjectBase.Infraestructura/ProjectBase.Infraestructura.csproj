@@ -10,10 +10,26 @@
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ProjectBase.Negocio\ProjectBase.Negocio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="StrCadenaConexion.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>StrCadenaConexion.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="StrCadenaConexion.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>StrCadenaConexion.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

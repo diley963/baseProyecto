@@ -1,10 +1,9 @@
-﻿using ProjectBase.Dominio;
-using ProjectBase.Negocio.Contratos.Persistencia.Acciones;
+﻿using ProjectBase.Negocio.Clientes;
 
 namespace ProjectBase.Negocio.Contratos.Persistencia
 {
-    public interface IClientRepository : IReadRepository<Cliente, int>
+    public interface IClientRepository
     {
-
+        public void CrearCLiente(ClienteRequest cliente);
     }
 }

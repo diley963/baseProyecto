@@ -1,25 +1,25 @@
-﻿using ProjectBase.Negocio.Contratos;
+﻿using ProjectBase.Dominio;
+using ProjectBase.Negocio.Contratos;
 using ProjectBase.Negocio.Contratos.Persistencia;
-using ProjectBase.Negocio.Repositorios;
 
 namespace ProjectBase.Negocio.Clientes
 {
-    public class ComandosCliente : ICommandClient
+    public class ComandosCliente
     {
-        private readonly IUnitOfWork _unitOfWork;
+        private readonly IClientRepository _clientRepository;
 
-        public ComandosCliente()
+        public ComandosCliente(IClientRepository clientRepository)
         {
-            _unitOfWork = new UnitOfWorkSqlServer();
+            _clientRepository = clientRepository;
         }
+
         public bool create(ClienteRequest peticion)
         {
-            using (var context = _unitOfWork.Create())
-            {
-                var confirmacion = context.Repositories.ClientRepository.Create(peticion);
-               
-                return confirmacion;
-            };
+
+             _clientRepository.CrearCLiente(peticion);
+
+            return true;
+
         }
     }
 }
