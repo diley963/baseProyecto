@@ -1,16 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProjectBase.Infraestructura.Contratos;
 using ProjectBase.Negocio.Clientes;
-using ProjectBase.Negocio.Contratos.Persistencia;
-using ProjectBase.Negocio.Fachadas;
 
 namespace DelegadaServicios.Controllers
 {
-    
+
     [Route("api/[controller]")]
     [ApiController]
     public class PeticionController : ControllerBase
     {
         private readonly IFachada _fachada;
+        delegate bool delegadaClientes(ClienteRequest cliente);
 
         public PeticionController(IFachada fachada)
         {
@@ -18,11 +18,16 @@ namespace DelegadaServicios.Controllers
         }
 
         [HttpGet]
-        public string Create(ClienteRequest peticion)
+        public bool Procedimientos(ClienteRequest peticion)
         {
-            var resultado = new DelegadaProjecBase(_fachada);
+            delegadaClientes delegada = delegate (ClienteRequest cliente)
+            {
+                return _fachada.create(cliente);
+            };
+
+            return delegada(peticion);             
         }
-            return "ff";
+            
             
     }
 }

@@ -1,22 +1,18 @@
-﻿using ProjectBase.Negocio.Contratos.Persistencia;
-using ProjectBase.Negocio.Fachadas;
+﻿using ProjectBase.Infraestructura.Contratos;
+using ProjectBase.Infraestructura.Facade_Pattern;
+using ProjectBase.Negocio.Clientes;
 
 namespace DelegadaServicios
 {
     public class DelegadaProjecBase
     {
-        private readonly Fachada _fachada;
-        private readonly IFachada? _servicioClientes;
-        public DelegadaProjecBase(Fachada fachada)
+        private readonly IFachada _fachada;
+        
+        public DelegadaProjecBase(IFachada fachada)
         {
             _fachada = fachada;
-            _servicioClientes = _fachada.Instance;
-            ServiciosClientes = _servicioClientes;
         }
 
-        public static IFachada? ServiciosClientes
-        {
-            get; private set;
-        }
+        
     }
 }

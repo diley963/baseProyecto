@@ -4,6 +4,6 @@ namespace ProjectBase.Negocio.Contratos
 {
     public interface ICommandClient
     {
-        void create(ClienteRequest peticion);
+        bool create(ClienteRequest peticion);
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "24UTwD2bR33fIlNceWJNFgwnNVT4KLSHaTQmxAWeHnA/HYoi22iN+Q/ZZtDcctBTWnCgnIQIx3RhLPRAh6Vkcg==",
+  "dgSpecHash": "qXJRqaIMi3gz6o8TYBRIT8OQQZaClz3MpFQAMQHOaf0dqN6/VhQn0To/oDjhHvf1nUb6DZ/QoT3Cee11FnQt9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\57301\\source\\repos\\ProjectBaseNet6\\ProjectBase.Negocio\\ProjectBase.Negocio.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\57301\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\57301\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\57301\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\57301\\.nuget\\packages\\npgsql\\6.0.4\\npgsql.6.0.4.nupkg.sha512",
     "C:\\Users\\57301\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

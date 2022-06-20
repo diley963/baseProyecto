@@ -550,6 +550,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "Npgsql": "6.0.4",
           "ProjectBase.Dominio": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
         },

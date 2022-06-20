@@ -1,11 +1,14 @@
+using ProjectBase.Infraestructura.Contratos;
+using ProjectBase.Infraestructura.Facade_Pattern;
+using ProjectBase.Infraestructura.Repositorios;
 using ProjectBase.Negocio.Contratos.Persistencia;
-using ProjectBase.Negocio.Fachadas;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddTransient<IFachada, Fachada>();
+builder.Services.AddScoped<IFachada, Fachada>();
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

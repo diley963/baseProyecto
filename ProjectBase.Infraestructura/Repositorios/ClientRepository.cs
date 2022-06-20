@@ -1,41 +1,32 @@
 ﻿using Npgsql;
 using NpgsqlTypes;
 using ProjectBase.Negocio.Clientes;
-using System.Data;
-using System.Data.SqlClient;
+using ProjectBase.Negocio.Contratos.Persistencia;
 
 namespace ProjectBase.Infraestructura.Repositorios
 {
-    public class ClientRepository : Repository
+    public class ClientRepository : Repository, IClientRepository
     {
         private NpgsqlCommand _comandoGeneral;
         public ClientRepository()
         {
             _comandoGeneral = new NpgsqlCommand();
-
         }
 
-        public void CrearCLiente(ClienteRequest cliente)
+        public bool CrearCLiente(ClienteRequest cliente)
         {
-            _comandoGeneral.Parameters.Clear();
-
-
-            _comandoGeneral.Parameters.Add("@id", NpgsqlDbType.Integer);
-            _comandoGeneral.Parameters["@id"].Value = cliente.Id;
-
-            //comandoGeneral.Parameters.Add("@barcod", SqlDbType.NVarChar);
-            //comandoGeneral.Parameters["@barcod"].Value = productos.BarcodProducto;
-
-            //comandoGeneral.Parameters.Add("@descripcion", SqlDbType.NVarChar);
-            //comandoGeneral.Parameters["@descripcion"].Value = productos.DescripcionProducto;
-
-
-            //comandoGeneral.Parameters.Add("@estado", SqlDbType.Bit);
-            //comandoGeneral.Parameters["@estado"].Value = productos.EstadoProducto;
-
-            //comandoGeneral.Parameters.Add("@CodigoCategoria", SqlDbType.BigInt);
-            //comandoGeneral.Parameters["@CodigoCategoria"].Value = productos.CodigoCategoriaProductoGeneral;
-            EjecutarInstruccion(_comandoGeneral, "spCrearCliente");
+            //en caso de necesitar logica
+            var logicaNegocio = new ComandosCliente().Create(cliente);
+            if (logicaNegocio)
+            {
+                //guarda datos en bd
+                _comandoGeneral.Parameters.Clear();
+                _comandoGeneral.Parameters.Add("@id", NpgsqlDbType.Integer);
+                _comandoGeneral.Parameters["@id"].Value = cliente.Id;
+                EjecutarInstruccion(_comandoGeneral, "spCrearCliente");
+                return true;
+            }
+            return false;
         }
     }
 }
