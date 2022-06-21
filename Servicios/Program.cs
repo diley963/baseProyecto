@@ -5,7 +5,9 @@ using ProjectBase.Negocio.Contratos.Persistencia;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseS(connectionString));
 
 builder.Services.AddScoped<IFachada, Fachada>();
 builder.Services.AddScoped<IClientRepository, ClientRepository>();

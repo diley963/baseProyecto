@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProjectBase.Infraestructura.Contratos;
 using ProjectBase.Negocio.Clientes;
+using System.Text.Json;
 
 namespace DelegadaServicios.Controllers
 {
@@ -17,15 +18,20 @@ namespace DelegadaServicios.Controllers
             _fachada = fachada;
         }
 
-        [HttpGet]
-        public bool Procedimientos(ClienteRequest peticion)
+        [HttpPost]
+        public bool Procedimientos(string peticion)
         {
+
+            ClienteRequest peticionx = new ClienteRequest();
+            peticionx = JsonSerializer.Deserialize<ClienteRequest>(peticion);
+
+
             delegadaClientes delegada = delegate (ClienteRequest cliente)
             {
                 return _fachada.create(cliente);
             };
 
-            return delegada(peticion);             
+            return delegada(peticionx);             
         }
             
             

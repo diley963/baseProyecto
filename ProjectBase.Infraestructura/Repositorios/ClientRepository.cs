@@ -21,9 +21,13 @@ namespace ProjectBase.Infraestructura.Repositorios
             {
                 //guarda datos en bd
                 _comandoGeneral.Parameters.Clear();
-                _comandoGeneral.Parameters.Add("@id", NpgsqlDbType.Integer);
-                _comandoGeneral.Parameters["@id"].Value = cliente.Id;
-                EjecutarInstruccion(_comandoGeneral, "spCrearCliente");
+                //_comandoGeneral.Parameters.Add("@id", NpgsqlDbType.Integer);
+                //_comandoGeneral.Parameters["@id"].Value = cliente.Id;
+                _comandoGeneral.Parameters.AddWithValue("@_nombre", NpgsqlDbType.Varchar).Value = cliente.Nombre;
+                //_comandoGeneral.Parameters["@Nombre"].Value = cliente.Nombre;
+                _comandoGeneral.Parameters.AddWithValue("@_identificacion", NpgsqlDbType.Integer).Value = cliente.Telefono;
+                //_comandoGeneral.Parameters["@Identificacion"].Value = 7837832578578;
+                EjecutarInstruccion(_comandoGeneral, "sample_insert");
                 return true;
             }
             return false;

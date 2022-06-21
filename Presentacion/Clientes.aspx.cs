@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestSharp;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -36,12 +37,25 @@ namespace Presentacion
 
         private string PeticionCrearCliente()
         {
-            var url = $"https://localhost:44329/api/Cliente";
-            var request = (HttpWebRequest)WebRequest.Create(url);
+
+
+            //int id = 1;
+            //string nombre  = "lo que sea ";
+            //string apellido  = "lo que sea ";
+
             string responseBody = string.Empty;
-            request.Method = "GET";
+            var url = $"https://localhost:44329/api/Peticion?peticion=pruebas";
+            var request = (HttpWebRequest)WebRequest.Create(url);
+            //string json = $"{{\"Id\":\"{id}\",\"Nombre\":\"{nombre}\",\"Apellido\":\"{apellido}\"}}";
+            request.Method = "POST";
             request.ContentType = "application/json";
             request.Accept = "application/json";
+            //using (var streamWriter = new StreamWriter(request.GetRequestStream()))
+            //{
+            //    streamWriter.Write(json);
+            //    streamWriter.Flush();
+            //    streamWriter.Close();
+            //}
             try
             {
                 using (WebResponse response = request.GetResponse())
@@ -51,6 +65,7 @@ namespace Presentacion
                         using (StreamReader objReader = new StreamReader(strReader))
                         {
                             responseBody = objReader.ReadToEnd();
+                            // Do something with responseBody
                         }
                     }
                 }
@@ -60,12 +75,10 @@ namespace Presentacion
                 // Handle error
             }
 
-            return responseBody;
+
+            return  responseBody;
 
         }
-
-
-
 
     }
 }

@@ -17,10 +17,7 @@ namespace ProjectBase.Infraestructura.Facade_Pattern
         public bool create(ClienteRequest peticion)
         {
             _clientRepository.CrearCLiente(peticion);
-            //_direccionRepository.CrearDireccion(peticion);
-            //_direccionRepository.CrearDireccion(peticion);
-            //_direccionRepository.CrearDireccion(peticion);
-            //_direccionRepository.CrearDireccion(peticion);
+           
             return true;
         }
     }

@@ -1,4 +1,5 @@
 ﻿using Npgsql;
+using ProjectBase.Negocio.Clientes;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -12,12 +13,21 @@ namespace ProjectBase.Infraestructura.Repositorios
 
         private NpgsqlConnection Conexion()
         {
-            // DefaultSettingValueAttribute () ;//= new DefaultSettingValueAttribute();
-            Conn = new NpgsqlConnection(conf.Cadena);
-            Conn.Open();
+            try
+            {
+                Conn = new NpgsqlConnection(conf.Cadena);
+                Conn.Open();
 
-            transaccion = Conn.BeginTransaction();
-            return Conn;
+                transaccion = Conn.BeginTransaction();
+                return Conn;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            // DefaultSettingValueAttribute () ;//= new DefaultSettingValueAttribute();
+
         }
 
         public void EndConec()
@@ -25,7 +35,7 @@ namespace ProjectBase.Infraestructura.Repositorios
             transaccion.Dispose();
             Conn.Close();
 
-        }     
+        }
 
         public DataTable EjecutarInstrucciones(string strSentenciaSQL)
         {
@@ -45,7 +55,7 @@ namespace ProjectBase.Infraestructura.Repositorios
             Commando.CommandText = NombreProcedimiento.ToString();//NombreProcedimiento.ToString();
             Commando.Connection = Conexion();
             Commando.Transaction = transaccion;
-            Commando.CommandType = CommandType.StoredProcedure;   
+            Commando.CommandType = CommandType.StoredProcedure;
             NpgsqlDataAdapter AdaptadorEjecutarProcedimiento = new NpgsqlDataAdapter(Commando);
             AdaptadorEjecutarProcedimiento.Fill(CargarTablaProcedimiento);
             EndConec();
@@ -56,13 +66,12 @@ namespace ProjectBase.Infraestructura.Repositorios
 
         public void EjecutarInstruccion(NpgsqlCommand Commando, string NombreProcedimiento)
         {
-            DataTable CargarTablaProcedimiento = new DataTable();
-
-
-            Commando.CommandText = NombreProcedimiento.ToString();//NombreProcedimiento.ToString();
             Commando.Connection = Conexion();
+            Commando.CommandText = "call " + NombreProcedimiento.ToString();//NombreProcedimiento.ToString();
             Commando.Transaction = transaccion;
-            Commando.CommandType = CommandType.StoredProcedure;
+            Commando.CommandType = CommandType.Text; /*CommandType.StoredProcedure;*/
+
+
             try
             {
                 Commando.ExecuteNonQuery(); ;
@@ -73,7 +82,6 @@ namespace ProjectBase.Infraestructura.Repositorios
             {
                 transaccion.Rollback();
                 var err = Ex.ErrorCode;
-                //SqlErr SqlError err = Ex.ErrorCode[0];
                 string mensaje = string.Empty;
                 switch (err)
                 {
@@ -92,10 +100,6 @@ namespace ProjectBase.Infraestructura.Repositorios
 
                 throw new ArgumentException(mensaje);
             }
-            //return CargarTablaProcedimiento;
-
-
-
 
         }
 

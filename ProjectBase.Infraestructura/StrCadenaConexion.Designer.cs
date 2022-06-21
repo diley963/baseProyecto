@@ -31,7 +31,7 @@ namespace ProjectBase.Infraestructura {
 
 
         //[global::System.Configuration.DefaultSettingValueAttribute("Data Source=SERVIDOR;Initial Catalog=BdSolucionesmi;User ID=sa;password=sa")]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=LocalHost; user id=postgres; Password=Seguridad2022; Database=postgres")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=localhost:5433; user id=postgres; Password=Seguridad2022; Database=postgres")]
         public string Cadena
         {
             get
