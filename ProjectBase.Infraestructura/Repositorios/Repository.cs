@@ -1,4 +1,5 @@
 ﻿using Npgsql;
+using NpgsqlTypes;
 using ProjectBase.Negocio.Clientes;
 using System.Data;
 using System.Data.SqlClient;
@@ -18,7 +19,7 @@ namespace ProjectBase.Infraestructura.Repositorios
                 Conn = new NpgsqlConnection(conf.Cadena);
                 Conn.Open();
 
-                transaccion = Conn.BeginTransaction();
+                //transaccion = Conn.BeginTransaction();
                 return Conn;
             }
             catch (Exception)
@@ -32,7 +33,7 @@ namespace ProjectBase.Infraestructura.Repositorios
 
         public void EndConec()
         {
-            transaccion.Dispose();
+            //transaccion.Dispose();
             Conn.Close();
 
         }
@@ -66,16 +67,16 @@ namespace ProjectBase.Infraestructura.Repositorios
 
         public void EjecutarInstruccion(NpgsqlCommand Commando, string NombreProcedimiento)
         {
-            Commando.Connection = Conexion();
-            Commando.CommandText = "call " + NombreProcedimiento.ToString();//NombreProcedimiento.ToString();
-            Commando.Transaction = transaccion;
-            Commando.CommandType = CommandType.Text; /*CommandType.StoredProcedure;*/
 
+            Commando.Connection = Conexion();
+            Commando.CommandText = NombreProcedimiento.ToString();//NombreProcedimiento.ToString();
+            Commando.Transaction = transaccion;
+            Commando.CommandType = CommandType.StoredProcedure;
 
             try
             {
-                Commando.ExecuteNonQuery(); ;
-                transaccion.Commit();
+                Commando.ExecuteNonQuery();
+                //transaccion.Commit();
                 EndConec();
             }
             catch (NpgsqlException Ex)
@@ -100,6 +101,7 @@ namespace ProjectBase.Infraestructura.Repositorios
 
                 throw new ArgumentException(mensaje);
             }
+
 
         }
 
